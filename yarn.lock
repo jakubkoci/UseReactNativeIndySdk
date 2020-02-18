@@ -5320,9 +5320,10 @@ rimraf@~2.2.6:
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
   integrity sha1-5Dm+Kq7jJzIZUnMPmaiSnk/FBYI=
 
-"rn-indy-sdk@file:../react-native-indy-sdk/rn-indy-sdk-1.0.0.tgz":
-  version "1.0.0"
-  resolved "file:../react-native-indy-sdk/rn-indy-sdk-1.0.0.tgz#173a836464ac01b63c0f45c66cd455bb7c32c69c"
+rn-indy-sdk@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/rn-indy-sdk/-/rn-indy-sdk-0.1.3.tgz#b8a6f010d9886800e3c65de21046186e25ce7b3b"
+  integrity sha512-qor59bPuiNfIrVdcgre2NpR5Fb9Tr/+p1sv+MInIaCIky/NhFoRomv3NOCuKmoKQy4UVMR5usWjSJdnmtK++EA==
 
 rsvp@^4.8.4:
   version "4.8.5"

@@ -22,9 +22,6 @@ const App: () => React$Node = () => {
           <View style={styles.body}>
             <Text style={styles.sectionDescription}>Check console.log for test results</Text>
             <View style={styles.sectionContainer}>
-              <Button title="Sample method" onPress={sampleMethod} />
-            </View>
-            <View style={styles.sectionContainer}>
               <Button title="Create wallet" onPress={createWallet} />
             </View>
             <View style={styles.sectionContainer}>
@@ -44,12 +41,6 @@ const App: () => React$Node = () => {
 }
 
 let walletHandle
-
-async function sampleMethod() {
-  console.log('sampleMethod onPress')
-  const result = await indy.sampleMethod('abc', 123)
-  console.log('result', result)
-}
 
 async function createWallet() {
   console.log('createWallet onPress')
